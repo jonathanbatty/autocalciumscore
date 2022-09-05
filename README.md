@@ -13,7 +13,7 @@ Installation instructions to run the Jupyter Notebook and CLI tool locally:
 1. Activate the virual environment, using: `venv\Scripts\activate.bat`.
 1. Install the libararies required by this project, by running: `pip install -r requirements.txt`.
 1. Open the Jupyter Notebook by starting a new JupyterLab instance, by running `jupyter lab`.
-1. Run the command line prediction tool by running: `python coronary-artery-scoring.py scans_to_analyse.txt output'. where `scans_to_analyse` is a text file containing a DICOM directory on each line and `output` specifies the name of the output file.
+1. Run the command line prediction tool by running: `python coronary-artery-scoring.py scans_to_analyse.txt output`. where `scans_to_analyse` is a text file containing a DICOM directory on each line and `output` specifies the name of the output file.
 
 
 Disclaimer: the models and tools provided in this repository are for research use only and should not be used for clinical diagnosis purposes.
