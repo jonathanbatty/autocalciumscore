@@ -129,7 +129,7 @@ if len(sys.argv) == 3:
             calcium_score = model.predict(np.expand_dims(scan_data[0], axis=0))[0][0]
 
             # Both write result of inference to screen and print in output .txt file
-            print("\nInput DICOM path: {} had a coronary artery calcium score of      {:.2f}\n".format(processed_scan.shape, calcium_score))
+            print("\nInput DICOM path: {} had a coronary artery calcium score of      {:.2f}\n".format(scan, calcium_score))
             f.write("{}, {}\n".format(scan, calcium_score))
             
 
